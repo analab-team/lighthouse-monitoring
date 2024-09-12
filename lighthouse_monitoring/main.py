@@ -3,7 +3,7 @@ import logging
 import requests
 import asyncio
 from functools import wraps
-from schemas import (
+from lighthouse_monitoring.schemas import (
     MonitoringInputRequest,
     MonitoringOutputRequest,
     MonitoringInputResponse,
